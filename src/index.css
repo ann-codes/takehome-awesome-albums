@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600;900&display=swap");
+
+body {
+  font-family: "Montserrat", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.container {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+/* HEADING  */
+header {
+  margin: 0;
+  padding: 2rem;
+}
+
+.logo + p {
+  color: #eff5fb;
+}
+
+.logo a {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 3rem;
+  color: #eff5fb;
+  font-style: normal;
+  transition: 0.6s;
+}
+
+.logo a:hover {
+  color: #172033;
+  font-style: italic;
+}
+
+.search-bar {
+  align-self: center;
+}
+
+/* FOOTER */
+footer {
+  margin: 0;
+  padding: 2.5rem;
+  text-align: center;
+}
+
+/* ALBUM CARD LIST */
+.album-card-img {
+  margin: auto;
+  background-size: cover;
+}
+
+.card-grow {
+  backface-visibility: hidden;
+  transition: transform 0.3s ease-out, -webkit-transform 0.3s ease-out;
+}
+
+.card-grow:hover,
+.card-grow:focus {
+  transform: scale(1.1);
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.album-card-text {
+  padding: 1.5rem 1rem;
+  text-align: center;
+}
+
+.album-card-text p:hover {
+  color: #008299;
+  size: 2rem;
+}
+
+/* Artist Page */
+.artist-page-card {
+  margin: 1rem 0;
+}
+
+.artist-page-content {
+  padding: 0 1.2rem;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.marg-bot-1 {
+  margin-bottom: 1rem;
+}

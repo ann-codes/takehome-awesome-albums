@@ -1,0 +1,33 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+header,
+footer {
+  color: white;
+}
+
+.bg-semi {
+  background-color: #008299;
+}
+
+.bg-dark {
+  background-color: #172033;
+}
+
+.bg-light {
+  background-color: lightgray;
+}
+
+.bg-whitish {
+  background-color: whitesmoke;
+}
