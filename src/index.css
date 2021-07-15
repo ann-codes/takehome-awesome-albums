@@ -17,6 +17,11 @@ code {
   margin-bottom: 2rem;
 }
 
+header,
+footer {
+  color: white;
+}
+
 /* HEADING  */
 header {
   margin: 0;
@@ -97,4 +102,22 @@ footer {
 
 .marg-bot-1 {
   margin-bottom: 1rem;
+}
+
+/* BACKGROUNDS */
+
+.bg-semi {
+  background-color: #008299;
+}
+
+.bg-dark {
+  background-color: #172033;
+}
+
+.bg-light {
+  background-color: lightgray;
+}
+
+.bg-whitish {
+  background-color: whitesmoke;
 }
