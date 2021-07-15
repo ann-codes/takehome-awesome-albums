@@ -59,14 +59,14 @@ See the [Interview_Submission](https://github.com/ann-codes/takehome-awesome-alb
 ## Post Interview Changes
 
 To Dos: 
-- Deploy to GH Pages
-- Clean up CSS (use Pure only?)
-- Abstract the structure to a typical TS folder structure 
-- Fix css for link hover color change for non-links
-- Artist Page feature - add in the featured album in the Artist page
-- Search feature - add in ability to sort by artist name, album name, genre
-- Load spinner - add in a loading spinner animation while data is being loaded
-- Write tests for the app
+- ✅  Deploy to GH Pages 
+- ⬜  Clean up CSS (use Pure only?)
+- ⬜  Abstract the structure to a typical TS folder structure 
+- ⬜  Fix css for link hover color change for non-links
+- ⬜  Artist Page feature - add in the featured album in the Artist page
+- ⬜  Search feature - add in ability to sort by artist name, album name, genre
+- ⬜  Load spinner - add in a loading spinner animation while data is being loaded
+- ⬜  Write tests for the app
 
 ---
 
