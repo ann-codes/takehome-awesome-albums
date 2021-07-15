@@ -24,7 +24,7 @@ export const AlbumListCard = ({ album, image, getArtistID }: Props) => {
   return (
     <div className="pure-u-1-1 pure-u-sm-1-2 pure-u-md-1-3 pure-u-lg-1-4">
       {getArtistID ? (
-        <Link to={`/artist?id=${getArtistID}+${album.id.attributes["im:id"]}`}>
+        <Link to={`/takehome-awesome-albums/artist?id=${getArtistID}+${album.id.attributes["im:id"]}`}>
           {content}
         </Link>
       ) : (

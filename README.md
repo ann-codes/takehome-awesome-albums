@@ -2,6 +2,8 @@
 
 Awesome Albums is a takehome project that was completed for a job interview. Names and descriptions of the original prompts have been changed.
 
+View the latest deployment at https://ann-codes.github.io/takehome-awesome-albums/.
+
 ## Tasks
 
 - Build a project using JavaScript, TypeScript, and React
@@ -50,4 +52,23 @@ There were a few problems I had to solve.
 - I did not have time to write tests for the application, which would probably have taken an additional hour or more. 
 - I pretty certain it would have gone a lot smoother and quicker had I just completed the project in JS and React. 
 
+See the [Interview_Submission](https://github.com/ann-codes/takehome-awesome-albums/tree/Interview_Submission) branch for the files as they were submitted for the interview. 
 
+---
+
+## Post Interview Changes
+
+To Dos: 
+- Deploy to GH Pages
+- Clean up CSS (use Pure only?)
+- Abstract the structure to a typical TS folder structure 
+- Fix css for link hover color change for non-links
+- Artist Page feature - add in the featured album in the Artist page
+- Search feature - add in ability to sort by artist name, album name, genre
+- Load spinner - add in a loading spinner animation while data is being loaded
+- Write tests for the app
+
+---
+
+## Deploying to GH Pages
+- `npm run deploy`

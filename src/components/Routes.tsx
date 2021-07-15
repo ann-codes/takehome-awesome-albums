@@ -6,10 +6,10 @@ import { ArtistPage } from "../pages/ArtistPage";
 export const Routes = () => (
   <div className="container">
     <Switch>
-      <Route path="/" exact={true}>
+      <Route path="/takehome-awesome-albums" exact={true}>
         <Home />
       </Route>
-      <Route path="/artist" exact={true}>
+      <Route path="/takehome-awesome-albums/artist" exact={true}>
         <ArtistPage />
       </Route>
     </Switch>
