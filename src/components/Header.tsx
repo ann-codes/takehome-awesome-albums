@@ -16,7 +16,7 @@ export const Header = () => {
           </h1>
           <p className="subtitle is-4">Find the Awesomest Albums</p>
         </div>
-        <div className="search-bar pure-u-1-1 pure-u-lg-1-3">
+        <div className="pure-u-1-1 pure-u-lg-2-5 search-bar">
           <SearchBar />
         </div>
       </div>

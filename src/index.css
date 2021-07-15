@@ -48,6 +48,7 @@ header {
 
 .search-bar {
   align-self: center;
+  padding-top: 1rem;
 }
 
 /* FOOTER */
@@ -55,6 +56,14 @@ footer {
   margin: 0;
   padding: 2.5rem;
   text-align: center;
+}
+
+footer a {
+  color: lightgray;
+}
+
+footer a:hover {
+  color: #008299;
 }
 
 /* ALBUM CARD LIST */
@@ -82,7 +91,7 @@ footer {
   text-align: center;
 }
 
-.album-card-text p:hover {
+a .album-card-text p:hover  {
   color: #008299;
   size: 2rem;
 }
