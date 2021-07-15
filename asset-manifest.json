@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/takehome-awesome-albums/static/css/main.e5290ef7.chunk.css",
-    "main.js": "/takehome-awesome-albums/static/js/main.15c9cda3.chunk.js",
-    "main.js.map": "/takehome-awesome-albums/static/js/main.15c9cda3.chunk.js.map",
+    "main.css": "/takehome-awesome-albums/static/css/main.30914abf.chunk.css",
+    "main.js": "/takehome-awesome-albums/static/js/main.ff9a4f1e.chunk.js",
+    "main.js.map": "/takehome-awesome-albums/static/js/main.ff9a4f1e.chunk.js.map",
     "runtime-main.js": "/takehome-awesome-albums/static/js/runtime-main.ad1a3382.js",
     "runtime-main.js.map": "/takehome-awesome-albums/static/js/runtime-main.ad1a3382.js.map",
     "static/js/2.9a8ef1af.chunk.js": "/takehome-awesome-albums/static/js/2.9a8ef1af.chunk.js",
     "static/js/2.9a8ef1af.chunk.js.map": "/takehome-awesome-albums/static/js/2.9a8ef1af.chunk.js.map",
     "index.html": "/takehome-awesome-albums/index.html",
-    "static/css/main.e5290ef7.chunk.css.map": "/takehome-awesome-albums/static/css/main.e5290ef7.chunk.css.map",
+    "static/css/main.30914abf.chunk.css.map": "/takehome-awesome-albums/static/css/main.30914abf.chunk.css.map",
     "static/js/2.9a8ef1af.chunk.js.LICENSE.txt": "/takehome-awesome-albums/static/js/2.9a8ef1af.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.ad1a3382.js",
     "static/js/2.9a8ef1af.chunk.js",
-    "static/css/main.e5290ef7.chunk.css",
-    "static/js/main.15c9cda3.chunk.js"
+    "static/css/main.30914abf.chunk.css",
+    "static/js/main.ff9a4f1e.chunk.js"
   ]
 }
