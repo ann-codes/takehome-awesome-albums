@@ -2,7 +2,7 @@
 import axios from "axios";
 
 const http = axios.create({
-  baseURL: "https://cors-anywhere.herokuapp.com/https://itunes.apple.com/",
+  baseURL: "https://ann-cors-lite.herokuapp.com/https://itunes.apple.com/",
   headers: {
     "Content-type": "application/json",
     "Access-Control-Allow-Origin": "*",
