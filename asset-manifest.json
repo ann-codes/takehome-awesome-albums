@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/takehome-awesome-albums/static/css/main.7c9b82ed.chunk.css",
-    "main.js": "/takehome-awesome-albums/static/js/main.84fa7058.chunk.js",
-    "main.js.map": "/takehome-awesome-albums/static/js/main.84fa7058.chunk.js.map",
+    "main.js": "/takehome-awesome-albums/static/js/main.941e011f.chunk.js",
+    "main.js.map": "/takehome-awesome-albums/static/js/main.941e011f.chunk.js.map",
     "runtime-main.js": "/takehome-awesome-albums/static/js/runtime-main.ad1a3382.js",
     "runtime-main.js.map": "/takehome-awesome-albums/static/js/runtime-main.ad1a3382.js.map",
     "static/js/2.9a8ef1af.chunk.js": "/takehome-awesome-albums/static/js/2.9a8ef1af.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.ad1a3382.js",
     "static/js/2.9a8ef1af.chunk.js",
     "static/css/main.7c9b82ed.chunk.css",
-    "static/js/main.84fa7058.chunk.js"
+    "static/js/main.941e011f.chunk.js"
   ]
 }
