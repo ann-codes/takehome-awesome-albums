@@ -4,6 +4,8 @@ Awesome Albums is a takehome project that was completed for a job interview. Nam
 
 View the latest deployment at https://ann-codes.github.io/takehome-awesome-albums/.
 
+**Note:** one of the APIs runs through a proxy server hosted on a free dyno on Heroku. Please be patient as the server wakes up. 
+
 ## Tasks
 
 - Build a project using JavaScript, TypeScript, and React
@@ -36,8 +38,8 @@ There were a few problems I had to solve.
 2. The endpoint had a cors issue `Access to XMLHttpRequest at 'https://itunes.apple.com/lookup?id=563578808&entity=album' from origin 'http://localhost:3000' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.` Since these headers were set on iTunes' end, we can take the following steps to resolve it
    - Ask iTunes to change their headers /laughs
    - The user would need to unblock CORS on their browser (see the [Unblock CORS Chrome plugin](https://add0n.com/access-control.html))
-   - Or the developer could use a 3rd party application that creates a proxy to add CORS headers to the proxy request.  
-     - Many thanks to [AbleLincoln](https://github.com/AbleLincoln/cors-escape) to providing the proxy.
+   - Or the developer could use a 3rd party tool that creates a proxy to add CORS headers to the request.  
+     - Many thanks to the [cors-anywhere](https://www.npmjs.com/package/cors-anywhere) package.
 
 
 ---
