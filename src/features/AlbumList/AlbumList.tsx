@@ -50,7 +50,7 @@ export const AlbumList = () => {
 
   return (
     <>
-      <h2 className="title is-3">Top 100 iTunes</h2>
+      <h2 className="title is-3">Top 100 iTunes Albums</h2>
       <div className="pure-g bg-light">{albums ? mapAlbums : "Loading..."}</div>
     </>
   );

@@ -90,6 +90,11 @@ export interface ArtistType {
 
 export interface ArtistPageAlbumType {
   map(arg0: (item: ArtistPageAlbumType) => JSX.Element): JSX.Element;
+  filter(arg0: (item: ArtistPageAlbumType) => boolean): ArtistPageAlbumType;
+  find(arg0: (item: ArtistPageAlbumType) => boolean): ArtistPageAlbumType;
+  sort(
+    arg0: (a: { releaseDate: number }, b: { releaseDate: number }) => number
+  ): ArtistPageAlbumType;
   artistId: number;
   artistName: string;
   artistViewUrl: string;

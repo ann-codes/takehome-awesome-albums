@@ -63,16 +63,11 @@ See the [Interview_Submission](https://github.com/ann-codes/takehome-awesome-alb
 ## Post Interview Changes
 
 To Dos: 
-- ✅  Deploy to GH Pages 
+- ✅  Setup and deploy to GH Pages: `npm run deploy`
 - ✅  Clean up CSS, text 
 - ✅  Fix css to remove color change hover for non-links
-- ⬜  Abstract the structure to a more typical TS folder structure 
-- ⬜  Artist Page feature - add in the featured album in the Artist page
+- ✅  Abstract and organize files
+- ✅  Artist Page feature - filter out distinguish in the top album (from the top 100 list) in the Artist page
 - ⬜  Search feature - add in ability to sort by artist name, album name, genre
 - ⬜  Load spinner - add in a loading spinner animation while data is being loaded
 - ⬜  Write tests for the app
-
----
-
-## Deploying to GH Pages
-- `npm run deploy`
