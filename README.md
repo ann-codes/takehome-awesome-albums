@@ -67,7 +67,7 @@ To Dos:
 - ✅  Clean up CSS, text 
 - ✅  Fix css to remove color change hover for non-links
 - ✅  Abstract and organize files
-- ⬜  Artist Page feature - add in the featured album in the Artist page
+- ✅  Artist Page feature - filter out distinguish in the top album (from the top 100 list) in the Artist page
 - ⬜  Search feature - add in ability to sort by artist name, album name, genre
 - ⬜  Load spinner - add in a loading spinner animation while data is being loaded
 - ⬜  Write tests for the app

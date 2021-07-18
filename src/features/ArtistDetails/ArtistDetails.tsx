@@ -12,7 +12,7 @@ export const ArtistDetails = () => {
   const query = useQuery();
   const ids = query.get("id");
   const artistID = ids?.split(" ")[0];
-  const albumID = ids?.split(" ")[1];
+  const topAlbumID = ids?.split(" ")[1];
 
   const fetchArtist = () => {
     ArtistService.getArtistAndAlbums(artistID)
@@ -34,17 +34,33 @@ export const ArtistDetails = () => {
 
   useEffect(fetchArtist, [artistID]);
 
-  // console.log(albums); //////// ==========
+  const topAlbum = albums?.find(
+    (album) => album.collectionId.toString() === topAlbumID
+  );
 
-  const allAlbums = albums?.map((item: ArtistPageAlbumType) => (
+  const allOtherAlbums = albums?.filter(
+    (album) => album.collectionId.toString() !== topAlbumID
+  );
+
+  const sortedOtherAlbums = allOtherAlbums?.sort(
+    (a: { releaseDate: number }, b: { releaseDate: number }) =>
+      a.releaseDate > b.releaseDate ? -1 : 1
+  );
+
+  const allAlbums = sortedOtherAlbums?.map((item: ArtistPageAlbumType) => (
     <ArtistDetailsCard item={item} key={item.collectionId} />
   ));
 
   return (
     <div>
+      <h3 className="title is-3">
+        {artist?.artistName}
+        {"'"}s Top Album
+      </h3>
+      {topAlbum && topAlbumID && <ArtistDetailsCard item={topAlbum} />}
       <h5 className="subtitle is-5">Additional Works by</h5>
       <h3 className="title is-3">{artist?.artistName}</h3>
-      <div>{allAlbums}</div>
+      {allAlbums}
     </div>
   );
 };
