@@ -1,0 +1,14 @@
+/* Artist Detail Page */
+.artist-page-card {
+  margin: 1rem 0;
+}
+
+.artist-page-content {
+  padding: 0 1.2rem;
+}
+
+.audio-player {
+  background-color: #f0f3f4;
+  margin: 0.6rem 0 0 0;
+  border: 1px #172033 dotted;
+}

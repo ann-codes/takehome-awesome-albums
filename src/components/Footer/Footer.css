@@ -1,0 +1,14 @@
+/* FOOTER */
+footer {
+  margin: 0;
+  padding: 2.5rem;
+  text-align: center;
+}
+
+footer a {
+  color: lightgray;
+}
+
+footer a:hover {
+  color: #008299;
+}

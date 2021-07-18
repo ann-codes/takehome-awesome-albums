@@ -1,0 +1,25 @@
+/* ALBUM LIST CARD */
+.album-card-img {
+  margin: auto;
+  background-size: cover;
+}
+
+.card-grow {
+  backface-visibility: hidden;
+  transition: transform 0.3s ease-out, -webkit-transform 0.3s ease-out;
+}
+
+.card-grow:hover,
+.card-grow:focus {
+  transform: scale(1.1);
+}
+
+.album-card-text {
+  padding: 1.5rem 1rem;
+  text-align: center;
+}
+
+a .album-card-text p:hover {
+  color: #008299;
+  size: 2rem;
+}

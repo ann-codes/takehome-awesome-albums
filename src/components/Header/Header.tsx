@@ -1,8 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { SearchBar } from "../features/SearchBar/SearchBar";
+import { SearchBar } from "../../features/SearchBar/SearchBar";
 
 import { IoIosMusicalNote } from "react-icons/io";
+
+import "./Header.css";
 
 export const Header = () => {
   return (
