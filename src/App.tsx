@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import { Header } from "./components/Header";
+import { Header } from "./components/Header/Header";
 import { Routes } from "./components/Routes";
-import { Footer } from "./components/Footer";
+import { Footer } from "./components/Footer/Footer";
 import { SearchWordContext } from "./context/SearchWordContext";
 
 function App() {

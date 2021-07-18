@@ -1,16 +1,16 @@
 import React from "react";
 import { Route, Switch } from "react-router-dom";
-import { Home } from "../pages/Home";
-import { ArtistPage } from "../pages/ArtistPage";
+import { AlbumList } from "../features/AlbumList/AlbumList";
+import { ArtistDetails } from "../features/ArtistDetails/ArtistDetails";
 
 export const Routes = () => (
   <div className="container">
     <Switch>
       <Route path="/takehome-awesome-albums" exact={true}>
-        <Home />
+        <AlbumList />
       </Route>
       <Route path="/takehome-awesome-albums/artist" exact={true}>
-        <ArtistPage />
+        <ArtistDetails />
       </Route>
     </Switch>
   </div>

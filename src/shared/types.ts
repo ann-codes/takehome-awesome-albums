@@ -1,3 +1,5 @@
+// Keep types form API endpoint in shared types
+
 interface AlbumStringLabel {
   label: string;
 }
