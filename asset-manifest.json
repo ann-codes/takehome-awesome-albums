@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/takehome-awesome-albums/static/css/main.7c9b82ed.chunk.css",
-    "main.js": "/takehome-awesome-albums/static/js/main.941e011f.chunk.js",
-    "main.js.map": "/takehome-awesome-albums/static/js/main.941e011f.chunk.js.map",
+    "main.css": "/takehome-awesome-albums/static/css/main.33b3eae4.chunk.css",
+    "main.js": "/takehome-awesome-albums/static/js/main.cc43e486.chunk.js",
+    "main.js.map": "/takehome-awesome-albums/static/js/main.cc43e486.chunk.js.map",
     "runtime-main.js": "/takehome-awesome-albums/static/js/runtime-main.ad1a3382.js",
     "runtime-main.js.map": "/takehome-awesome-albums/static/js/runtime-main.ad1a3382.js.map",
-    "static/js/2.9a8ef1af.chunk.js": "/takehome-awesome-albums/static/js/2.9a8ef1af.chunk.js",
-    "static/js/2.9a8ef1af.chunk.js.map": "/takehome-awesome-albums/static/js/2.9a8ef1af.chunk.js.map",
+    "static/js/2.97573478.chunk.js": "/takehome-awesome-albums/static/js/2.97573478.chunk.js",
+    "static/js/2.97573478.chunk.js.map": "/takehome-awesome-albums/static/js/2.97573478.chunk.js.map",
     "index.html": "/takehome-awesome-albums/index.html",
-    "static/css/main.7c9b82ed.chunk.css.map": "/takehome-awesome-albums/static/css/main.7c9b82ed.chunk.css.map",
-    "static/js/2.9a8ef1af.chunk.js.LICENSE.txt": "/takehome-awesome-albums/static/js/2.9a8ef1af.chunk.js.LICENSE.txt"
+    "static/css/main.33b3eae4.chunk.css.map": "/takehome-awesome-albums/static/css/main.33b3eae4.chunk.css.map",
+    "static/js/2.97573478.chunk.js.LICENSE.txt": "/takehome-awesome-albums/static/js/2.97573478.chunk.js.LICENSE.txt",
+    "static/media/explicit-content-warning.40c34569.png": "/takehome-awesome-albums/static/media/explicit-content-warning.40c34569.png"
   },
   "entrypoints": [
     "static/js/runtime-main.ad1a3382.js",
-    "static/js/2.9a8ef1af.chunk.js",
-    "static/css/main.7c9b82ed.chunk.css",
-    "static/js/main.941e011f.chunk.js"
+    "static/js/2.97573478.chunk.js",
+    "static/css/main.33b3eae4.chunk.css",
+    "static/js/main.cc43e486.chunk.js"
   ]
 }
